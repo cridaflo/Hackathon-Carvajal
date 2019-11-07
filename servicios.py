@@ -4,6 +4,7 @@ from werkzeug.utils import secure_filename
 from flask_cors import CORS, cross_origin
 import logging
 import guardar as prime
+import bbdd as bd
 from DiagnosticoBases import diagnosticar as diagnostico
 
 
@@ -57,7 +58,10 @@ def login():
     content = request.get_json()
     email = content['email']
     password = content['password']
+    login = bd.login(email, password)
     #Campos email - Password HACER MATCH CON LA DB Y QUE RETORNE ESTADO SUCCESS O FAIL
+    if (not login):
+        return jsonify({'Estado': 'Failed'})
     return jsonify({'Estado':'Success'})
  
 
