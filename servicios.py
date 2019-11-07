@@ -64,6 +64,8 @@ def login():
 @app.route('/register', methods=['POST'])
 def register():
     content = request.get_json()
+    print(content)
+    token= content['token']
     name = content['name']
     departamento = content['departamento']
     email = content['email']
