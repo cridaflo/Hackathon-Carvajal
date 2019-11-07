@@ -7,21 +7,22 @@ mydb = mysql.connector.connect(
     database="logs"
 )
 
-my_cursor = mydb.cursor()
-
 
 def login(usr, pwd):
-    my_cursor.execute("SELECT * FROM credenciales")
+    my_cursor = mydb.cursor()
+    my_cursor.execute("SELECT email, pwd FROM credenciales")
     result = my_cursor.fetchall()
 
     for x in result:
-        if(x["email"]==usr and x["pwd"]):
+        if(x[0]==usr and x[1]==pwd):
             return True
     
     return False
 
 def register(usr, pwd, token):
     try:
+
+        my_cursor = mydb.cursor()
         my_cursor.execute("INSERT INTO credenciales (email, pwd, token) VALUES (%s, %s, %s)", (usr, pwd, token))
 
         mydb.commit()
