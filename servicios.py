@@ -68,7 +68,6 @@ def login():
 @app.route('/register', methods=['POST'])
 def register():
     content = request.get_json()
-    print(content)
     token= content['token']
     name = content['name']
     departamento = content['departamento']
@@ -79,8 +78,10 @@ def register():
     cluster = content['cluster']
     cellphone = content['cellphone']
     
-
+    registro = bd.register(email, password, token)
     #Si la escritura en la db no falla por columnas repetidas como email , retornar Success
+    if not registro:
+        return jsonify({'Estado':'Failed'})
     return jsonify({'Estado':'Success'})
   
     

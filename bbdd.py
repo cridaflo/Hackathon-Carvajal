@@ -19,3 +19,12 @@ def login(usr, pwd):
             return True
     
     return False
+
+def register(usr, pwd, token):
+    try:
+        my_cursor.execute("INSERT INTO credenciales (email, pwd, token) VALUES (%s, %s, %s)", (usr, pwd, token))
+
+        mydb.commit()
+        return True
+    except:
+        return False
