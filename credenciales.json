@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "hackathon-appsco",
+  "private_key_id": "1fab6eae7bd0a763639da50c5dc72fa800229adf",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDgxihcrlD6e+c3\nTzc89IftY66W/Te/awIhhh3zINvT+s0mgMldm92/uXrrBsSBMkbXGalF9O0xPjvH\nHEnD0pNKPAo/pqPPfraq+2PPZhK6JbO4vZBKovTBlKkKKO8fhQWYmU0Ahgxss9PD\nXCFceF5WpVuA5r8HZv98jK1DQvm1szuIZyLqTe7IOFCzT6f8dv/cfPdX8oOzWijV\nJF7RbWQd1St+8pm+5qraC/zlyXlx8ZNQB28RwLmuUFZsaI8atwCc1E4YXdXDPFAK\nW2tYGSbZH7C/NwBkf7ubEI07Czn6of5Vm6zJ7qDlFTF83vJLTm9Rf/xUITuaZoXT\niU7UqYDFAgMBAAECggEABz6bxv6oc8pR+lPQuD8V+ndSBYaqFr7AeouPNmqU/YfL\nAO1C2V+HRLgZ/BwaTUe2aoNCFAG26Rn4rh59SidSeI5VIIQQcvvm1HSIpid6ongl\nL52zWktW2L5pAzaIQMk/XTZRZ5szliwv42F6OcovYn+KdOTWcsrqMtkwLZDOMwHT\nioPKjR6kVNqhWGpKsshUm66ezrpxRh7NgkRChJea/mUY+AcTuNXt8F3GB7trkabC\nolNvJuatcVWDh1h4qTvhRRjeFKZoQfCSXUpCS6pOg/No2YEUr7Sx3gvxsZGfZ0YZ\npZnl7E8ulCbxzgQ1gNVe8wpfaqQNVit05t52Vw4UwQKBgQDw8YWNoh3fMS3FMQ1+\nGf7/jdjlPYL1uEaBTumhdN0fzm6kKQNs1aM88wSkwU0clVXxk+dMbDOd95cYQY3+\ngsk43Nyw7dxCwxA+zWuIh3aVXNJQA29GCxefeTMbhzqn+psYoH1M54oK2n8cbc5m\noi/Rd1FJItAvg06KfKNtxd9leQKBgQDu0feUr9JArvS9fOaLDqrE/S/fCaDl+Ewb\ndzHQi7YGtUNa6TLm+XoDE2vRx3CAQnETJXQipAN9/BrScQI/OGVJloBsH3hbc3Mw\njtMOl9eqLaNUbxbLL8pUhQalxY660ivWQ+hhAH0ZOKEQebcXkTmDhS9oCEdAG7T0\nyj/eGoverQKBgDYu+ku5k2In2xUnTNN44SFzMr2KsbK0eBaIOn32m+uVLsh3+K82\n8/i25epvFfpBkww6qJ9FDe6OSUpJI7eCjeHduTuIoinZWAPnijEv1XkNYLZhr1pf\nEDbquJWOOaCg+NP283ah8ycxr7gi8XGfM4W1gXAjBhJJQxZdpRsAjpZxAoGAQn41\nZ7GYYagUvllzOw5nX5d656efo8gBMLh8JytvD+kSCtLY+FRHs2mJ4Iud+CgHoaQQ\n9MAjtMUnlqYeUQnbsaR0tyX/9b5sOP3bJ7oBMwGn8w9HEmWI+QVct3UM61kvGWYo\n4jEno4kP1y18W9R0ZfkEHPwJEoFkXa+eHrHXdbUCgYAhx4LPMbQNxUIOIOjATjcJ\nMUt58tTQYY0Q636livzOR2a+pb8XsQBI3ryFt8rGy6nauCvE/qcY5Z0O8deZJlRc\nUBu6tEPcDi9tuGpKeikUz6CnRc3NrkjpQkFjMCq4kwiHIpqOfyk3kSXFn9YqVdkY\n2WBL9rgejzOE5ex24skYaA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "buckets@hackathon-appsco.iam.gserviceaccount.com",
+  "client_id": "117593831773996232437",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/buckets%40hackathon-appsco.iam.gserviceaccount.com"
+}
